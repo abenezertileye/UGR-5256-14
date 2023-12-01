@@ -1,0 +1,179 @@
+/* the following css applies for all pages */
+
+body{
+    display: flex;
+    background-color: #e9e9e9;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+.sidebar{
+    background-color: #dcdcdc;
+    height: 100%;
+    text-align: center;
+    box-shadow:0 0 5px #5f9ea0; 
+
+    position: fixed;
+    width: 200px; 
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.current{
+    background-color:#5f9ea0;
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+.nav{
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    height: 100px;
+    margin: 0;
+    width: 100%;
+}
+
+.nav:hover {
+    background-color: #5f9ea0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.text{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.header1{
+    color: #5f9ea0;
+    font-size: 45px;
+    font-weight: 800;
+    opacity: 0.6;
+    text-align: right;
+}
+
+
+.paragraph{
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+/* the following css applies ONLY for the HOME PAGE */
+
+.content{
+    flex: 1;
+    padding: 25px;
+    margin-left: 200px;
+}
+
+.introduction{
+    text-align: center;
+}
+
+.image{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: #404040 solid 5px;
+}
+
+.hello{
+    color: #5f9ea0;
+    font-weight: bold;
+    font-size: 50px;
+}
+.smile{
+    color:coral;
+}
+.meet{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.my-name{
+    color: #5f9ea0;
+
+}
+
+/*  the following css applies ONLY for ABOUT ME AND PAGE */
+
+.content2{
+    flex: 1;
+    padding-right: 25px;
+    margin-left: 220px;
+}
+
+.info{
+    background-color: #d2d2d2;
+    border-radius: 10px;
+    padding: 10px ;
+
+    margin-bottom: 30px;
+}
+
+.title{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* the following css applies ONLY for ABOUT ME AND PROJECTS PAGE */
+
+.header2{ 
+    color: #5f9ea0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.content3{
+    padding: 30px;
+    margin-left: 200px;
+}
+
+.numbering{
+    color: #5f9ea0;
+    border-bottom: solid 3px #5f9ea0;
+    text-align: right;
+    font-family: 'Consolas', monospace;
+}
+
+/* this applies ONLY for SKILLS PAGE */
+
+.area{
+    font-weight: bold;
+}
+
+/* this applies ONLY for  CONTACTS PAGE */
+
+.contact-links{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li::before {
+    content: '\25BA';
+    font-size: 15px;
+    color: #5f9ea0;
+    line-height: 1.7;
+    padding-right: 10px;
+  }

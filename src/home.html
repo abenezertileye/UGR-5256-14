@@ -2,32 +2,38 @@
 <html lang="en">
 <head>
     <title>home</title>
+    
+    <link rel="stylesheet" href="flex.css">
 </head>
 <body>
-    <div>
-        
-        <div>
-            <div>home</div>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contacts</div>
-        </div>
 
-        <div>
-            <div>
-                <img src="image/myprofile.jpg">
-            </div>
+    <div class="sidebar">
+        <div class="current"><a class="text" href="home.html">Home</a></div>
 
-            <div>
-                <p> Hello There :) </p>
-                <p>Meet Abenezer Tileye,</p>
-                <p>Software Developer</p>
+        <div class="nav"><a class="text" href="aboutme.html">About Me</a></div>
 
-                <p>Greetings! I'm Abenezer Tileye, a passionate and innovative software developer with a keen eye for detail and a knack for problem-solving. My journey in the world of technology has been marked by a commitment to excellence, a hunger for knowledge, and a drive to create meaningful and efficient solutions.</p>
-            </div>
-        </div>
+        <div class="nav"><a class="text" href="projects.html">Projects</a></div>
 
+        <div class="nav"><a class="text" href="skills.html">Skills</a></div>
+
+        <div class="nav"><a class="text" href="contacts.html">Contacts</a></div>
     </div>
+
+    <div class="content">
+            <div><p class="header1">HOME</p></div>
+            <div>
+                <img class="image" src="image/myprofile.jpg">
+            </div>
+
+            <div class="introduction">
+                <p class="hello"> Hello There <span class="smile">:)</span>  </p>
+                <p class="meet">Meet <span class="my-name">Abenezer Tileye</span>,<br>Software Developer</p>
+                
+
+                <p class="paragraph">Greetings! I'm Abenezer Tileye, a passionate and innovative software developer with a keen eye for detail and a knack for problem-solving.</p>
+            </div>
+    </div>
+
+    
 </body>
 </html>
