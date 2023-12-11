@@ -8,6 +8,8 @@ body{
     padding: 0;
     font-family: sans-serif;
     grid-template-areas: 'sidebar content';
+    min-width: 400px; /* Set a minimum width for the entire body */
+
     }
 
 .sidebar{
@@ -24,6 +26,9 @@ body{
     justify-content: space-evenly;
     width: fit-content;
     align-items: center;
+
+    min-width: 200px; /* Set a minimum width for the sidebar */
+    overflow-x: hidden; /* Hide horizontal overflow */
 }
 
 .current{
@@ -76,9 +81,11 @@ body{
 /* the following css applies ONLY for the HOME PAGE */
 
 .content{
-    padding: 25px;
+    padding: 50px;
     margin: 0;  
     grid-area: content;  
+    min-width: 300px; /* Set a minimum width for the content */
+    overflow-x: hidden; /* Hide horizontal overflow */
 }
 
 .introduction{
@@ -99,7 +106,7 @@ body{
 /*  the following css applies ONLY for ABOUT ME AND PAGE */
 
 .content2{
-    padding:0 25px 0 25px;
+    padding:50px;
     margin: 0;
     grid-area: content;
 }
@@ -146,7 +153,7 @@ body{
 }
 
 .content3{
-    padding:0 25px 0 25px;
+    padding:50px;
     margin: 0;
     grid-area: content;
 }
@@ -183,4 +190,28 @@ ul li::before {
     padding-right: 10px;
   }
 
-  
+/* Tablet and Desktop */
+@media only screen and (min-width: 400px) {
+    .introduction {
+        text-align: left;
+    }
+
+    .image {
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+/* Larger Desktop */
+@media only screen and (min-width: 1025px) {
+    .introduction {
+        font-size: 24px;
+    }
+
+    .hello,
+    .smile,
+    .meet,
+    .my-name {
+        font-size: 28px;
+    }
+}
