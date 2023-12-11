@@ -8,7 +8,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     grid-template-areas: 'sidebar content';
-    min-width: 400px; /* Set a minimum width for the entire body */
+    min-width: 400px; 
 
     }
 
@@ -27,8 +27,8 @@ body{
     width: fit-content;
     align-items: center;
 
-    min-width: 200px; /* Set a minimum width for the sidebar */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    min-width: 200px; 
+    overflow-x: hidden; 
 }
 
 .current{
@@ -84,8 +84,8 @@ body{
     padding: 50px;
     margin: 0;  
     grid-area: content;  
-    min-width: 300px; /* Set a minimum width for the content */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    min-width: 300px; 
+    overflow-x: hidden; 
 }
 
 .introduction{
