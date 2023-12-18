@@ -2,22 +2,31 @@
 <html lang="en">
 <head>
     <title>home</title>
+    <script src="js/js.js"></script>
     
     <link rel="stylesheet" href="grid.css">
 </head>
 <body>
 
-    <div class="sidebar">
-        <div class="current"><a class="text" href="home.html">Home</a></div>
+    <div>
+        <div>
+            <a href="#" onclick="toggleSidebar()" id="closeButton">X</a>
+        </div>
 
-        <div class="nav"><a class="text" href="aboutme.html">About Me</a></div>
-
-        <div class="nav"><a class="text" href="projects.html">Projects</a></div>
-
-        <div class="nav"><a class="text" href="skills.html">Skills</a></div>
-
-        <div class="nav"><a class="text" href="contacts.html">Contacts</a></div>
+        <div class="sidebar" id="sidebar">
+            <div class="current"><a class="text" href="home.html">Home</a></div>
+    
+            <div class="nav"><a class="text" href="aboutme.html">About Me</a></div>
+    
+            <div class="nav"><a class="text" href="projects.html">Projects</a></div>
+    
+            <div class="nav"><a class="text" href="skills.html">Skills</a></div>
+    
+            <div class="nav"><a class="text" href="contacts.html">Contacts</a>5</div>
+        </div>
     </div>
+
+    
 
     <div class="content">
             <div><p class="header1">HOME</p></div>
@@ -33,7 +42,6 @@
                 <p class="paragraph">Greetings! I'm Abenezer Tileye, a passionate and innovative software developer with a keen eye for detail and a knack for problem-solving.</p>
             </div>
     </div>
-
     
 </body>
 </html>
