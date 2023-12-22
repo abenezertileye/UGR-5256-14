@@ -2,45 +2,79 @@
 <html lang="en">
 <head>
     <title>projects</title>
+    <link rel="stylesheet" href="dist/output.css">
+    
 </head>
-<body>
-    <div>
+<body class="body">
+
+    <div class="grid grid-cols-6 sm:grid-cols-6 gap-4 mx-auto">
+        <div class="col-span-1 sm:col-span-1 bg-gray-200 h-screen pt-2 pr-4 pb-6 pl-4">
         
-        <div>
-            <div>home</div>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contacts</div>
-        </div>
-
-        <div>
-            <div>
-                <p>Projects</p>
-
-                <p>1. Project: QuantumPulse Analytics Platform</p>
-                <p>Developed a cutting-edge analytics platform leveraging quantum computing principles. The platform utilizes qubits for advanced data processing and analysis, providing unparalleled speed and accuracy in decision-making.</p>
+            <div class="font-bold text-sm text-red-400 text-center">
+                <a href="#" >X</a>
             </div>
-
-            <div>
-                <p>2. Project: SentinelGuard Security Suite</p>
-
-                <p>Designed and implemented a comprehensive security suite to protect web applications against evolving cyber threats. The suite includes a Web Application Firewall (WAF), Intrusion Detection System (IDS), and threat intelligence integration.</p>
-            </div>
-
-            <div>
-                <p>3. Project: Augmented Reality Shopping Experience</p>
-
-                <p>Revolutionized the e-commerce experience by introducing an augmented reality (AR) shopping platform. Users can virtually try on clothing and accessories in real-time using their mobile devices, enhancing the online shopping experience.</p>
-            </div>
-
-            <div>
-                <p>4. Project: Autonomous Drone Delivery System</p>
-
-                <p>Developed an autonomous drone delivery system for efficient and secure package delivery. The system includes route optimization, obstacle detection, and real-time monitoring for safe and reliable deliveries.</p>
+    
+            <div class="flex flex-col justify-between font-bold  mx-auto">
+                <div class="text-center "><a class="text" href="home.html">Home</a></div>
+        
+                <div class="text-center"><a class="text" href="aboutme.html">About Me</a></div>
+        
+                <div class="text-center bg-cyan-400"><a class="text" href="projects.html">Projects</a></div>
+        
+                <div class="text-center"><a class="text" href="skills.html">Skills</a></div>
+        
+                <div class="text-center"><a class="text" href="contacts.html">Contacts</a></div>
             </div>
         </div>
-
+           
+    
+        <div class="col-span-5 sm:col-span-5 mx-auto pt-2 pr-4 pb-6 pl-4">
+            
+            <p class="text-cyan-400 text-5xl font-bold sm:text-end opacity-50">PROJECTS</p>
+            <p class="text-3xl font-bold text-cyan-400">What Did I Build So Far?</p>
+    
+            <!-- information 1 -->
+            <div>
+                <div class="text-end text-cyan-400">01.</div><hr class="border-t-2 border-cyan-400">
+            
+                <p class="text-xl font-bold">
+                    QuantumPulse Analytics Platform 
+                </p>                     
+                
+                <p class="opacity-50">Developed a cutting-edge analytics platform leveraging quantum computing principles. The platform utilizes qubits for advanced data processing and analysis, providing unparalleled speed and accuracy in decision-making.</p>
+            </div>
+    
+            <!-- information 2 -->
+            <div>
+                <div class="text-end text-cyan-400">02.</div><hr class="border-t-2 border-cyan-400">
+    
+                <p class="text-xl font-bold">SentinelGuard Security Suite</p>
+    
+                <p class="opacity-50">Designed and implemented a comprehensive security suite to protect web applications against evolving cyber threats. The suite includes a Web Application Firewall (WAF), Intrusion Detection System (IDS), and threat intelligence integration.</p>
+            </div>
+    
+            <!-- information 3 -->
+            <div>
+                <div class="text-end text-cyan-400">03.</div><hr class="border-t-2 border-cyan-400">
+    
+                <p class="text-xl font-bold">Augmented Reality Shopping Experience</p>
+    
+                <p class="opacity-50">Revolutionized the e-commerce experience by introducing an augmented reality (AR) shopping platform. Users can virtually try on clothing and accessories in real-time using their mobile devices, enhancing the online shopping experience.</p>
+            </div>
+    
+            <!-- information 4 -->
+            <div>
+                <div class="text-end text-cyan-400">04.</div><hr class="border-t-2 border-cyan-400">
+    
+                <p class="text-xl font-bold">Autonomous Drone Delivery System</p>
+    
+                <p class="opacity-50">Developed an autonomous drone delivery system for efficient and secure package delivery. The system includes route optimization, obstacle detection, and real-time monitoring for safe and reliable deliveries.</p>
+            </div>
+        </div>
     </div>
+
+    
+
+
 </body>
 </html>

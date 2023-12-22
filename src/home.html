@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-</head>
+    <link rel="stylesheet" href="dist/output.css"></head>
 <body>
-    <div>
+
+    <div class="grid grid-cols-6 sm:grid-cols-6 gap-4 mx-auto">
+        <div class="col-span-2 sm:col-span-1 bg-gray-200 h-1/2vh pt-2 pr-4 pb-6 pl-4">
         
-        <div>
-            <div>home</div>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contacts</div>
-        </div>
-
-        <div>
-            <div>
-                <img src="image/myprofile.jpg">
+            <div class="font-bold text-sm text-red-400 text-center">
+                <a href="#">X</a>
             </div>
-
-            <div>
-                <p> Hello There :) </p>
-                <p>Meet Abenezer Tileye,</p>
-                <p>Software Developer</p>
-
-                <p>Greetings! I'm Abenezer Tileye, a passionate and innovative software developer with a keen eye for detail and a knack for problem-solving. My journey in the world of technology has been marked by a commitment to excellence, a hunger for knowledge, and a drive to create meaningful and efficient solutions.</p>
+    
+            <div class="flex flex-col justify-between font-bold  mx-auto ">
+                <div class="text-center bg-cyan-400"><a class="text" href="home.html">Home</a></div>
+        
+                <div class="text-center "><a class="text" href="aboutme.html">About Me</a></div>
+        
+                <div class="text-center"><a class="text" href="projects.html">Projects</a></div>
+        
+                <div class="text-center"><a class="text" href="skills.html">Skills</a></div>
+        
+                <div class="text-center"><a class="text" href="contacts.html">Contacts</a></div>
             </div>
         </div>
-
+    
+        
+    
+        <div class="col-span-4 sm:col-span-4 mx-auto pt-2 pr-4 pb-6 pl-4">
+                <div><p class="text-cyan-400 text-5xl font-bold sm:text-end opacity-50">HOME</p></div><br>
+                <div class="content-center ">
+                    <img class="block mx-auto border-2 border-slate-950 rounded-md " src="image/myprofile.jpg">
+                </div><br>
+    
+                <div class="text-center">
+                    <p class="text-3xl font-bold"> Hello There <span class="text-red-400">:)</span>  </p>
+                    <p class="text-3xl font-bold">Meet <span class="text-cyan-400">Abenezer Tileye</span>,<br>Software Developer</p>
+                    
+    
+                    <p class="text-2xl opacity-50">Greetings! I'm Abenezer Tileye, a passionate and innovative software developer with a keen eye for detail and a knack for problem-solving.</p>
+                </div>
+        </div>
     </div>
+
+    
+    
 </body>
 </html>

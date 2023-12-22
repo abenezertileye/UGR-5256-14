@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>contacts</title>
-</head>
-<body>
-          
-        <div>
-            <div>home</div>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contacts</div>
-        </div>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="dist/output.css"></head>
+<body class="body">
 
-        <div>
-            <ul>
-                <li>Email: john.smith@email.com</li>
-                <li>LinkedIn: linkedin.com/in/johnasmith</li>
-                <li>Phone: +1 (555) 123-4567</li>
-            </ul>
-        </div>
-
+    <div class="grid grid-cols-1 sm:grid-cols-6 gap-4 mx-auto mt-0">
+        <div class="col-span-1 sm:col-span-1 bg-gray-200 h-screen pt-2 pr-4 pb-6 pl-4">
+        
+            <div class="font-bold text-xm text-red-400 text-center">
+                <a href="#" >X</a>
+            </div>
     
+            <div class="flex flex-col justify-between font-bold  mx-auto">
+                <div class="text-center border "><a class="text" href="home.html">Home</a></div>
+        
+                <div class="text-center  "><a class="text" href="aboutme.html">About Me</a></div>
+        
+                <div class="text-center"><a class="text" href="projects.html">Projects</a></div>
+        
+                <div class="text-center "><a class="text" href="skills.html">Skills</a></div>
+        
+                <div class="text-center bg-cyan-400"><a class="text" href="contacts.html">Contacts</a></div>
+            </div>
+        </div> 
+              
+       
+        <div class="col-span-1 sm:col-span-5 pt-2 pr-4 pb-6 pl-4">
+    
+            <p class="text-cyan-400 text-5xl font-bold sm:text-end opacity-50">CONTACTS</p>
+            <p class="text-3xl font-bold text-cyan-400"> Let's Connect !</p><br>
+    
+            <div>
+                <ul class="list-inside list-none">
+                    <li class="bg-gray-200 border rounded-md p-4"><span class="text-green-500">&#9658;</span>
+                        <span class="text-2xl font-bold">Email:</span>
+                        <a  class="contact-links" href="#">abenezertileye@email.com</a>
+                    </li><br>
+    
+                    <li class="bg-gray-200 border rounded-md p-4"><span class="text-green-500">&#9658;</span>
+                        <span class="text-2xl font-bold">LinkedIn:</span>
+                        <a class="contact-links" href="#">linkedin.com/in/abenezertileye</a>
+                    </li><br>
+    
+                    <li class="bg-gray-200 border rounded-md p-4"><span class="text-green-500">&#9658;</span>
+                        <span class="text-2xl font-bold">Phone:</span>
+                        <a class="contact-links" href="#">+1 (555) 123-4567</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+
 </body>
 </html>

@@ -2,41 +2,64 @@
 <html lang="en">
 <head>
     <title>skills</title>
+    <link rel="stylesheet" href="dist/output.css">
 </head>
-<body>
-    <div>
+<body class="body">
+
+    <div class="grid grid-cols-1 sm:grid-cols-6 gap-4 mx-auto ">
         
-        <div>
-            <div>home</div>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contacts</div>
-        </div>
-
-        <div>
-            <div>
-                <p>Technical Skills:</p>
-                <p>Programming Languages:</p>
-                <p>Proficient in: Java, Python, JavaScript
-                Familiar with: c++</p>
+        <div class="col-span-1 sm:col-span-1 bg-gray-200 h-screen pt-2 pr-4 pb-6 pl-4">
+        
+            <div class="font-bold text-sm text-red-400 text-center">
+                <a href="#" >X</a>
             </div>
+    
+            <div class="flex flex-col justify-between font-bold  mx-auto mt-4">
+                <div class="text-center border "><a class="text" href="home.html">Home</a></div>
+        
+                <div class="text-center  "><a class="text" href="aboutme.html">About Me</a></div>
+        
+                <div class="text-center"><a class="text" href="projects.html">Projects</a></div>
+        
+                <div class="text-center bg-cyan-400"><a class="text" href="skills.html">Skills</a></div>
+        
+                <div class="text-center"><a class="text" href="contacts.html">Contacts</a></div>
+            </div>
+        </div>   
+    
+        <div class="col-span-5 sm:col-span-5 pt-2 pr-4 pb-6 pl-4">
+            <p class="text-cyan-400 text-5xl font-bold sm:text-end opacity-50">SKILLS</p>
 
-            <div>
-                <p>Web Development:</p>
+            <p class="text-3xl font-bold text-cyan-400">What Can I Do?</p><br>
+
+            <div class="bg-gray-200 border rounded-md p-4">
+                <p class="text-2xl font-bold">Programming Languages:</p>
                 <p>
-                    <ul>
-                        <li>Front-end Development:  HTML, CSS, JavaScript, React.js</li>
-                        <li>Back-end Development: Node.js, Express.js</li>
+                    <ul class="list-inside list-none">
+                        <li> <span class="text-green-500">&#9658;</span><span class="font-bold"> Proficient in:</span> Java, Python, JavaScript</li>
+
+                        <li><span class="text-green-500">&#9658;</span><span class="font-bold"> Familiar with:</span> c++</li>
                     </ul>
                 </p>
-            </div>
-            <div>
-                <p>Database Management:</p>
+            </div><br>
+
+            <div class="bg-gray-200 border rounded-md p-4">
+                <p class="text-2xl font-bold">Web Development:</p>
                 <p>
-                    <ul>
-                        <li>Database Systems: SQL, MySQL, MongoDB</li>
-                        <li>ORMs (Object-Relational Mapping)
+                    <ul class="list-inside list-none">
+                        <li> <span class="text-green-500">&#9658;</span><span class="font-bold"> Front-end Development: </span> HTML, CSS, JavaScript, React.js</li> <br>
+
+                        <li><span class="text-green-500">&#9658;</span><span class="font-bold"> Back-end Development:</span> Node.js, Express.js</li>
+                    </ul>
+                </p>
+            </div><br>
+
+            <div class="bg-gray-200 border rounded-md p-4">
+                <p class="text-2xl font-bold">Database Management:</p>
+                <p>
+                    <ul class="list-inside list-none">
+                        <li><span class="text-green-500">&#9658;</span><span class="font-bold"> Database Systems:</span> SQL, MySQL, MongoDB</li>
+                        <li><span class="text-green-500">&#9658;</span><span class="font-bold"> ORMs</span> (Object-Relational Mapping)
                         </li>
                     </ul>
                 </p>
@@ -45,5 +68,10 @@
         </div>
 
     </div>
+    </div>
+
+    
+
+
 </body>
 </html>
