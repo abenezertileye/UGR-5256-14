@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>contacts</title>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
-<body>
+
+<body onload="toggleSidebar();" >
+    <div class="d-flex">
+        <div class="bg-light" style="width: 250px;">
+            <a href="#" class="btn btn-light" onclick="toggleSidebar()" id="xButton">X</a>
+
+            <div class="list-group " id="sidebar">
+                <a href="home.html" class="list-group-item list-group-item-action">Home</a>
+                <a href="aboutme.html" class="list-group-item list-group-item-action">About Me</a>
+                <a href="projects.html" class="list-group-item list-group-item-action">Projects</a>
+                <a href="skills.html" class="list-group-item list-group-item-action ">Skills</a>
+                <a href="contacts.html" class="list-group-item list-group-item-action bg-success">Contacts</a>
+            </div>
+        </div>
           
-        <div>
-            <div>home</div>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contacts</div>
-        </div>
+   
+        <div class="p-5 p-md-5 w-100">
 
-        <div>
-            <ul>
-                <li>Email: john.smith@email.com</li>
-                <li>LinkedIn: linkedin.com/in/johnasmith</li>
-                <li>Phone: +1 (555) 123-4567</li>
-            </ul>
-        </div>
+            <div style="opacity: 0.5;"><p class="text-end h1 text-success font-weight-bold w-100" >CONTACTS</p></div>            
+            <p class="text-success h1"> Let's Connect !</p>
 
-    
+            <div>
+                <ul>
+                    <li class="bg-secondary">
+                        <span class="h4">Email:</span>
+                        <a  class="contact-links" href="#">abenezertileye@email.com</a>
+                    </li> <br>
+
+                    <li class="bg-secondary">
+                        <span class="h4">LinkedIn:</span>
+                        <a class="contact-links" href="#">linkedin.com/in/abenezertileye</a>
+                    </li><br>
+
+                    <li class="bg-secondary">
+                        <span class="h4">Phone:</span>
+                        <a class="contact-links" href="#">+1 (555) 123-4567</a><br>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./js/js.js"></script>
 </body>
 </html>
